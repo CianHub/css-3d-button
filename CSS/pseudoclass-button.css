@@ -1,0 +1,46 @@
+.exercise-btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    /*this is important for moving button down*/
+    background-color: #fcad26;
+    font-size: 15px;
+    font-weight: 300px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 25px 80px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 6px #efa424;
+    /* first num is x second is y, 0 means right under*/
+}
+
+.exercise-btn:hover {
+    box-shadow: 0 4px #efa424;
+    top: 2px;
+    /* box-shadow shortens dark part by 2px
+    top:2px moves button down by 2px giving the
+    illusion of button depressing*/
+}
+
+.exercise-btn:active {
+    box-shadow: none;
+    top: 6px;
+    /* box-shadow removes dark part by 4px
+    top:6px moves button down by 6px giving the
+    illusion of being pressed*/
+}
+
+body {
+    background-color: #fcd04b;
+    font-family: Lato;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 300;
+}
